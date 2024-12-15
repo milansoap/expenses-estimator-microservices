@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package fuel;
+
+option java_package = "com.example.proto.fuel";
+option java_outer_classname = "FuelProto";
+
+service FuelService {
+  rpc GetFuelPrice (FuelPriceRequest) returns (FuelPriceResponse);
+}
+
+message FuelPriceRequest {
+  string country = 1;
+}
+
+message FuelPriceResponse {
+  string price = 1;
+}
