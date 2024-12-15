@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package fuel;
+
+service FuelService {
+  rpc GetFuelCost(FuelRequest) returns (FuelResponse);
+}
+
+message FuelRequest {
+  double distance = 1;
+}
+
+message FuelResponse {
+  double cost = 1;
+}
