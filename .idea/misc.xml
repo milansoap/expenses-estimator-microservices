@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/shared-proto-lib/pom.xml" />
         <option value="$PROJECT_DIR$/fuel-service/pom.xml" />
         <option value="$PROJECT_DIR$/expenses-service/pom.xml" />
+        <option value="$PROJECT_DIR$/toll-service/pom.xml" />
       </list>
     </option>
   </component>

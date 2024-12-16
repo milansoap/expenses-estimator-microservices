@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package toll;
+
+option java_package = "com.example.toll.fuel";
+option java_outer_classname = "TollProto";
+
+service TollService {
+  rpc GetTollPrice (TollPriceRequest) returns (TollPriceResponse);
+}
+
+message TollPriceRequest {
+  string from = 1;
+  string to = 2;
+}
+
+message TollPriceResponse {
+  string price = 1;
+}

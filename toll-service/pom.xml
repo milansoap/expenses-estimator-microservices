@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>fuel-service</artifactId>
+	<artifactId>toll-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>fuel-service</name>
-	<description>fuel service</description>
+	<name>toll-service</name>
+	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -85,6 +85,8 @@
 			<version>2.15.0.RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
+
+
 
 	</dependencies>
 
