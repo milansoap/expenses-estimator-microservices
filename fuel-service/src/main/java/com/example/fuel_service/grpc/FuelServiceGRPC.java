@@ -1,17 +1,17 @@
 package com.example.fuel_service.grpc;
 
-import com.example.fuel_service.Services.FuelPriceService;
+import com.example.fuel_service.services.FuelPriceService;
 import com.example.proto.fuel.FuelProto;
 import com.example.proto.fuel.FuelServiceGrpc;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
 
 @GrpcService
-public class FuelServiceImpl extends FuelServiceGrpc.FuelServiceImplBase {
+public class FuelServiceGRPC extends FuelServiceGrpc.FuelServiceImplBase {
 
     private final FuelPriceService fuelPriceService;
 
-    public FuelServiceImpl(FuelPriceService fuelPriceService) {
+    public FuelServiceGRPC(FuelPriceService fuelPriceService) {
         this.fuelPriceService = fuelPriceService;
     }
 

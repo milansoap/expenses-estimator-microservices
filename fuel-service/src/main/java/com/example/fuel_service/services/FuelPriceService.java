@@ -1,4 +1,4 @@
-package com.example.fuel_service.Services;
+package com.example.fuel_service.services;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
