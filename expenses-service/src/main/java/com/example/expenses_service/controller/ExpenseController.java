@@ -26,5 +26,10 @@ public class ExpenseController {
         return expenseService.calculateExpenses(country);
     }
 
+    @GetMapping("/api/get-toll-price/{from}/{to}")
+    public double getFuelPriceForCountry(@PathVariable String from, @PathVariable String to) {
+        return expenseService.calculateTolls(from, to);
+    }
+
 
 }

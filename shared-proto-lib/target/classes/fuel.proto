@@ -14,5 +14,5 @@ message FuelPriceRequest {
 }
 
 message FuelPriceResponse {
-  string price = 1;
+  double price = 1;
 }

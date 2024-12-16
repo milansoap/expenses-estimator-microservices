@@ -1,4 +1,4 @@
-package services;
+package com.example.toll_service.services;
 
 import com.microsoft.playwright.*;
 import org.springframework.stereotype.Service;

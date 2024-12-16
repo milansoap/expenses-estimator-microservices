@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.AppTest" time="0.02" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.AppTest" time="0.021" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Program Files\KMSpico\temp\surefire11100750138605028147\surefirebooter-20241215201004340_3.jar C:\Program Files\KMSpico\temp\surefire11100750138605028147 2024-12-15T20-10-04_050-jvmRun1 surefire-20241215201004340_1tmp surefire_0-20241215201004340_2tmp"/>
+    <property name="sun.java.command" value="C:\Program Files\KMSpico\temp\surefire15824992877893456688\surefirebooter-20241216172906364_3.jar C:\Program Files\KMSpico\temp\surefire15824992877893456688 2024-12-16T17-29-06_106-jvmRun1 surefire-20241216172906364_1tmp surefire_0-20241216172906364_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Korisnik\Desktop\Faks 3 letnik\TIDS\Projekt_FULL\microservices\shared-proto-lib\target\test-classes;C:\Users\Korisnik\Desktop\Faks 3 letnik\TIDS\Projekt_FULL\microservices\shared-proto-lib\target\classes;C:\Users\Korisnik\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Korisnik\.m2\repository\io\grpc\grpc-protobuf\1.58.0\grpc-protobuf-1.58.0.jar;C:\Users\Korisnik\.m2\repository\io\grpc\grpc-api\1.58.0\grpc-api-1.58.0.jar;C:\Users\Korisnik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Korisnik\.m2\repository\com\google\protobuf\protobuf-java\3.24.0\protobuf-java-3.24.0.jar;C:\Users\Korisnik\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.22.0\proto-google-common-protos-2.22.0.jar;C:\Users\Korisnik\.m2\repository\io\grpc\grpc-protobuf-lite\1.58.0\grpc-protobuf-lite-1.58.0.jar;C:\Users\Korisnik\.m2\repository\com\google\guava\guava\32.0.1-android\guava-32.0.1-android.jar;C:\Users\Korisnik\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Korisnik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Korisnik\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Korisnik\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Korisnik\.m2\repository\io\grpc\grpc-stub\1.58.0\grpc-stub-1.58.0.jar;C:\Users\Korisnik\.m2\repository\com\google\errorprone\error_prone_annotations\2.20.0\error_prone_annotations-2.20.0.jar;C:\Users\Korisnik\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Program Files\KMSpico\temp\surefire11100750138605028147\surefirebooter-20241215201004340_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Program Files\KMSpico\temp\surefire15824992877893456688\surefirebooter-20241216172906364_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testApp" classname="org.example.AppTest" time="0.004"/>
+  <testcase name="testApp" classname="org.example.AppTest" time="0.003"/>
 </testsuite>

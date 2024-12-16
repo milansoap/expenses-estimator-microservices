@@ -17,7 +17,7 @@ public class FuelServiceGRPC extends FuelServiceGrpc.FuelServiceImplBase {
 
     @Override
     public void getFuelPrice(FuelProto.FuelPriceRequest request, StreamObserver<FuelProto.FuelPriceResponse> responseObserver) {
-        String price = fuelPriceService.getFuelPriceByCountry(request.getCountry());
+        double price = fuelPriceService.getFuelPriceByCountry(request.getCountry());
         FuelProto.FuelPriceResponse response = FuelProto.FuelPriceResponse.newBuilder()
                 .setPrice(price)
                 .build();
