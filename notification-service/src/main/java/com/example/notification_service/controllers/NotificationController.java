@@ -32,7 +32,7 @@ public class NotificationController {
                     String messageBody = new String(message.getBody());
 
                     emitter.send(SseEmitter.event()
-                            .name("weather-update")
+                            .name("data")
                             .data(messageBody));
 
                     System.out.println("Message forwarded to SSE for city: " + city);
