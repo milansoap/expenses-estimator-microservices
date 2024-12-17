@@ -9,6 +9,7 @@
         <module name="fuel-service" />
         <module name="toll-service" />
         <module name="expenses-service" />
+        <module name="weather-service" />
         <module name="shared-proto-lib" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="expenses-service" options="-parameters" />
       <module name="fuel-service" options="-parameters" />
       <module name="toll-service" options="-parameters" />
+      <module name="weather-service" options="-parameters" />
     </option>
   </component>
 </project>
