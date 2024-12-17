@@ -1,6 +1,7 @@
 package com.example.weather_service.controller;
 
 import com.example.weather_service.services.WeatherService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,12 +14,13 @@ public class WeatherController {
     private final WeatherService weatherService;
 
     public WeatherController(WeatherService weatherService) {
-
+        this.weatherService = weatherService;
     }
 
-    @GetMapping("api/subscribe-to-weather-topic/{city}")
-    public ResponseEntity<String> subscribeToWeatherTopic(@PathVariable String city) {
-        return new ResponseEntity<>(HttpStatus.OK);
+    @GetMapping("/fetch-city-weather/{city}")
+    public String fetchWeather(@PathVariable String city) {
+        weatherService.fetchAndSendWeather(city);
+        return String.format("Weather data for %s has been sent to the queue.", city);
     }
 
 }

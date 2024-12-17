@@ -9,7 +9,6 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class WeatherService {
 
-
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
@@ -21,7 +20,7 @@ public class WeatherService {
 
     public void fetchAndSendWeather(String city) {
         RestTemplate restTemplate = new RestTemplate();
-        String url = String.format(OPEN_WEATHER_API, city);
+        String url = String.format(OPEN_WEATHER_API, city, apiKey);
 
         try {
             // Fetch weather data directly as String or JSON, since we're not using WeatherData
